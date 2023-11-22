@@ -1,0 +1,66 @@
+canvas {
+    border: 1px solid rgb(126, 99, 58);
+    background: inherit;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(223, 199, 157);
+    padding: 20px;
+}
+.code-container, .pop-code-container {
+    margin-left: 10px;
+    width: 468px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.popBack-line, .code-line {
+    display: block;
+}
+.popFront-line {
+    display: block;
+}
+.highlight {
+    background-color: #73BEC8;
+}
+.explanation-box {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 450px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(126, 99, 58);
+    border-radius: 5px;
+}
+
+.canvas-and-tracer-container{
+    display: flex; /*side by side*/
+
+}
+
+#canvas-and-controls{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+}
+.controls{
+    margin-left: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+        /*make it a card*/
+    background-color: white;
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px 2px rgb(219, 219, 219);
+    font-family: 'Lato', sans-serif;
+    width: 25%;
+}
+.card {
+    align-content: center;
+    border-radius: 10px;
+    box-shadow: 1px 2px 6px 2px rgb(219, 219, 219);
+    font-family: 'Lato', sans-serif;
+}

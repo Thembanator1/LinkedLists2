@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(223, 199, 157);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(88, 65, 29);
+    font-family: italic;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(126, 99, 58);
+      background-color: inherit;
+      border: 1px solid rgb(126, 99, 58);
+      border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+  }
+
+  button:hover {
+    border: 1px solid #73BEC8;
+    cursor: pointer;
+    color: #73BEC8;
+  }
+  
+  .quiz-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+
+  
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .popup-content button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgb(126, 99, 58);
+    background-color: inherit;
+    border: 1px solid rgb(126, 99, 58);
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .question-image {
+    max-width: 300px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .question {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+    background-color: #e1f5fe; /* Light blue background */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  /* Add this to your existing CSS or create a new style block */
+/* Add this to your existing CSS or create a new style block */
+.quiz-item-container {
+  display: inline-block; /* Make containers inline */
+  margin: 10px; /* Adjust margin as needed */
+}
+
+.quiz-item {
+  display: inline-block;
+  padding: 10px; /* Add padding for a button-like appearance */
+  background-color: #f0f0f0; /* Add background color */
+  border: 1px solid #ccc; /* Add border styling */
+  cursor: pointer;
+}
+
+.quiz-item:hover {
+  background-color: #e0e0e0; /* Change background color on hover */
+}
+
+/* Add any other styles you need */
+
+
+
+
+/* Add any other styles you need */
+
+

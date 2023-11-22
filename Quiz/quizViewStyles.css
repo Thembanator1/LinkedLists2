@@ -1,0 +1,66 @@
+/* quizViewStyles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(223, 199, 157);
+  }
+  
+  .header {
+    background-color: rgb(223, 199, 157);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .course-details {
+    margin-top: 20px;
+  }
+  
+  .answer-box {
+    margin: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  .quiz-questions {
+    margin: 20px;
+  }
+  
+  button {
+    background-color: inherit;
+    color: rgb(126, 99, 58);
+    padding: .25rem 3rem;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid rgb(126, 99, 58);
+    border-radius: 5px;
+    margin: 20px;
+  }
+  
+  button:hover {
+    border: 1px solid #73BEC8;
+    background-color: #73BEC8;
+  }
+  .question-image {
+    max-width: 300px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .question {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: left;
+    background-color: #e1f5fe; /* Light blue background */
+    padding: 20px;
+    box-sizing: border-box;
+  }
